@@ -30,6 +30,6 @@ const ProductSchema = mongoose.Schema(
     }
 );
 
-const Product = mongoose.model("Product", ProductSchema);
+const Product = mongoose.model("Product", ProductSchema);  // here "Product" is the collection name & it'll be in lowercase in MongoDb Atlas
 
 module.exports = Product;
